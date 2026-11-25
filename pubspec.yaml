@@ -38,6 +38,7 @@ dependencies:
   provider: ^6.1.5+1
   flutter_screenutil: ^5.9.3
   easy_localization: ^3.0.8
+  flutter_native_splash: ^2.4.8
 
 dev_dependencies:
   flutter_test:
@@ -103,3 +104,20 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
+flutter_native_splash:
+    color: "#121312"
+
+    image: assets/images/logo2.png
+
+    branding: assets/images/branding.png
+
+    android: true
+    ios: true
+    web: false
+
+    android_12:
+      color: "#121312"
+      image: assets/images/logo2.png
+      branding: assets/images/branding.png
